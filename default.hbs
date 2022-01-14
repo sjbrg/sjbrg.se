@@ -9,7 +9,7 @@
 			{{! Styles }}
 	    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,500,700' rel='stylesheet' type='text/css'>
 			<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-			<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
 			{{! Responsive Meta Tags }}
@@ -39,7 +39,7 @@
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">SJBRG &copy; {{date format='YYYY'}}. {{t "Powered by" }} <a href="http://ghost.org" target="_blank">Ghost</a>.</section>
+			<section id="footer-message">SJBRG &copy; {{date format='YYYY'}}. {{t "Powered" }} {{t "with" }} {{t "love" }} {{t "by" }} <a href="http://ghost.org" target="_blank">Ghost</a> <i class="fas fa-heart red"></i></section>
 		</footer>
 	{{ghost_foot}}
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>

@@ -159,12 +159,11 @@ header #logo img {
 	border: none;
 }
 #follow-icons {
-	font-size: 0.7em;
-	margin-top: -0.7em;
+	font-size: 0.9em;
 	margin-bottom: 1.5em;
 }
 #follow-icons a {
-	color: #ccc;
+	color: #333;
 }
 #follow-icons span {
 	vertical-align:top;
