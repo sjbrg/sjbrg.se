@@ -1,6 +1,6 @@
 # SJBRG
 
-My [Ghost](https://ghost.org) theme for my personal blog [SJBRG.se](https://sjbrg.se). A minimalist, responsive, and open-source two-column theme based on [Crisp](https://github.com/kathyqian/crisp) by [Kathy Qian](http://kathyqian.com). Last tested with Ghost v4.
+My [Ghost](https://ghost.org) theme for my personal blog [SJBRG.se](https://sjbrg.se). A minimalist, responsive, and open-source two-column theme based on [Crisp](https://github.com/kathyqian/crisp) by [Kathy Qian](http://kathyqian.com). How about we call this theme _Crisper_! Last tested with Ghost v4.
 
 ### Changes compared to the Crisp theme
 
