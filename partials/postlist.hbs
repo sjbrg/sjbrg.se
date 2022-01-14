@@ -1,0 +1,19 @@
+{{#foreach posts}}
+<section id="{{comment_id}}" class="{{post_class}}">
+	<div class="post-meta"><span class="date-meta">{{date published_at format='MMMM YYYY'}}</span>
+		{{#if tags}}
+			<span class="taglist">
+			<ul>
+	    {{#foreach tags}}
+	      <li>
+	        <a href="{{url}}" title="{{name}}" class="tag tag-{{id}} {{slug}}">#{{name}}</a>
+	      </li>
+	    {{/foreach}}
+	    </ul>
+		</span>
+	  {{/if}}
+	{{#if featured}}<span class="separator"> &middot; </span><i class="fa fa-star-o feature-star"></i>{{/if}}
+	</div>
+	<h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+</section>
+{{/foreach}}
