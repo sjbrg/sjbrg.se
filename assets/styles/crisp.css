@@ -94,7 +94,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #3a88fe; /* Change Link Color */
+	color: var(--ghost-accent-color); /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
@@ -230,7 +230,7 @@ article ul {
 	margin-right:10px;
 }
 .taglist ul li a {
-	color:#3a88fe;
+	color:var(--ghost-accent-color);
 	line-height: 1.5em;
 	font-size:1em;
 	font-family: "Open Sans", sans-serif;
@@ -245,6 +245,12 @@ article ul {
 	margin-top: 1em;
 	padding-bottom: 0.2em;
 	border-bottom: 1px solid #eee;
+}
+.post .article-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 /* Footer */
 .pagination {
